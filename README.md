@@ -1,8 +1,7 @@
 ### Run Elasticsearch & Kibana as docker containers
 ```
 git clone https://github.com/Hardeep18/elk-workspace.git
-cd elk/docker
-mv docker-compose-v7.1.1.yml docker-compose.yml
+cd elk-workspace/docker-7.1.1 
 sudo sysctl -w vm.max_map_count=262144
 docker-compose up -d
 ```
